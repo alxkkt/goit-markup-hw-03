@@ -9,26 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
     <!-- Header -->
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="menu">
             <a href="./index.html" class="logo"><span class="logo-prefix">Web</span>Studio</a>
             <ul>
-                <li><a href="./index.html" class="menu-current">Студия</a></li>
-                <li><a href="./portfolio.html" class="menu">Портфолио</a></li>
-                <li><a href="" class="menu">Контакты</a></li>
+                <li><a href="./index.html" class="menu-item-current">Студия</a></li>
+                <li><a href="./portfolio.html" class="menu-item">Портфолио</a></li>
+                <li><a href="" class="menu-item">Контакты</a></li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com" class="contacts-link-header">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="contacts-link-header">+38 096 111 11 11</a>
+        <div class="link-header">
+            <a href="mailto:info@devstudio.com" class="contacts-link-header">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="contacts-link-header">+38 096 111 11 11</a>
+        </div>
     </header>
     
     <!-- Main Sign & Short Description -->
-    <main>
+    <main class="container">
         <section class="title">
             <h1 class="title-sign">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br /> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button type="button" class="title-button">Заказать услугу</button>
