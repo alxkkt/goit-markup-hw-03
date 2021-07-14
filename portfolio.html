@@ -16,12 +16,12 @@
 
     <!-- Header -->
         <header class="header">
-            <div class="container">
+            <div class="container header-container">
                 <nav class="menu">
                     <a href="./index.html" class="logo-header">
                         <span class="logo-prefix">Web</span>Studio
                     </a>
-                    <ul class="menu-item-list">
+                    <ul class="menu-list">
                         <li class="item">
                             <a href="./index.html" class="navmenu-item">Студия</a>
                         </li>
@@ -33,97 +33,148 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="contacts-header">
-                    <a href="mailto:info@devstudio.com" class="contacts-link-mail">info@devstudio.com</a>
-                    <a href="tel:+380961111111" class="contacts-link-phone">+38 096 111 11 11</a>
-                </div>
+                <ul class="contacts-header">
+                    <li class="mail">
+                        <a href="mailto:info@devstudio.com" class="contacts-link-mail">info@devstudio.com</a>
+                    </li>
+                    <li class="phone">
+                        <a href="tel:+380961111111" class="contacts-link-phone">+38 096 111 11 11</a>
+                    </li>
+                </ul>
             </div>
         </header>
 
     <!-- Main Section -->
     <main>
         <div class="container">
-        <section class="section hero">
+            <section class="section hero">
 
-                <!-- Menu/Filter -->
-                <ul class="filter">
-                    <li>
-                        <button type="button" class="menu-button">Все</button>
-                    </li>
-                    <li>
-                        <button type="button" class="menu-button">Вэб-сайты</button>
-                    </li>
-                    <li>
-                        <button type="button" class="menu-button">Приложения</button>
-                    </li>
-                    <li>
-                        <button type="button" class="menu-button">Дизайн</button>
-                    </li>
-                    <li>
-                        <button type="button" class="menu-button">Маркетинг</button>
-                    </li>
-                </ul>
-        </section>
+                    <!-- Menu/Filter -->
+                    <ul class="filter">
+                        <li>
+                            <button type="button" class="menu-button">Все</button>
+                        </li>
+                        <li>
+                            <button type="button" class="menu-button">Вэб-сайты</button>
+                        </li>
+                        <li>
+                            <button type="button" class="menu-button">Приложения</button>
+                        </li>
+                        <li>
+                            <button type="button" class="menu-button">Дизайн</button>
+                        </li>
+                        <li>
+                            <button type="button" class="menu-button">Маркетинг</button>
+                        </li>
+                    </ul>
+            </section>
+        </div> 
 
         <section class="section feature">
-
+            <div class="container">
             <!-- Available Features -->
-            <ul class="features">
-                <li class="feature-item">
-                    <img src="./img/portfolio/image1.jpg" alt="photo-main-page" width="370">
-                    <h3 class="feature-type">Технокряк</h3>
-                    <p class="feature-description">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio/image2.jpg" alt="basketball-poster" width="370">
-                    <h3 class="feature-type">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                    <p class="feature-description">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio/image3.jpg" alt="restaurant-logo" width="370">
-                    <h3 class="feature-type">Ресторан <span lang="en">Seafood</span></h3>
-                    <p class="feature-description">Приложение</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio/image4.jpg" alt="headphones-sample" width="370">
-                    <h3 class="feature-type">Проект <span lang="en">Prime</span></h3>
-                    <p class="feature-description">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio/image5.jpg" alt="boxes-example" width="370">
-                    <h3 class="feature-type">Проект <span lang="en">Boxes</span></h3>
-                    <p class="feature-description">Приложение</p>         
-                </li>
-                <li>
-                    <img src="./img/portfolio/image6.jpg" alt="monitor-sample" width="370">
-                    <h3 class="feature-type" lang="en">Inspiration has no Borders</h3>
-                    <p class="feature-description">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio/image7.jpg" alt="book-example" width="370">
-                    <h3 class="feature-type">Издание <span lang="en">Limited Edition</span></h3>
-                    <p class="feature-description">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio/image8.jpg" alt="lable-sample" width="370">
-                    <h3 class="feature-type">Проект<span lang="en"> LAB</span></h3>
-                    <p class="feature-description">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio/image9.jpg" alt="working-process" width="370">
-                    <h3 class="feature-type" lang="en">Growing Business</h3>
-                    <p class="feature-description">Приложение</p>
-                </li>
-            </ul>
+                <ul class="features">
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image1.jpg" alt="photo-main-page" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type">Технокряк</h3>
+                                <p class="feature-description">Веб-сайт</p>
+                            </div>    
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image2.jpg" alt="basketball-poster" width="370" height="294">
+                            </div>      
+                            <div class="feature-content">
+                                <h3 class="feature-type">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                                <p class="feature-description">Дизайн</p>
+                            </div>
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image3.jpg" alt="restaurant-logo" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type">Ресторан <span lang="en">Seafood</span></h3>
+                                <p class="feature-description">Приложение</p>
+                        </div>
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image4.jpg" alt="headphones-sample" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type">Проект <span lang="en">Prime</span></h3>
+                                <p class="feature-description">Маркетинг</p>
+                            </div>
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image5.jpg" alt="boxes-example" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type">Проект <span lang="en">Boxes</span></h3>
+                                <p class="feature-description">Приложение</p>
+                            </div>         
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image6.jpg" alt="monitor-sample" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type" lang="en">Inspiration has no Borders</h3>
+                                <p class="feature-description">Веб-сайт</p>
+                            </div>
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image7.jpg" alt="book-example" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type">Издание <span lang="en">Limited Edition</span></h3>
+                                <p class="feature-description">Дизайн</p>
+                            </div>
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image8.jpg" alt="lable-sample" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type">Проект<span lang="en"> LAB</span></h3>
+                                <p class="feature-description">Маркетинг</p>
+                        </div>
+                    </li>
+
+                    <li class="feature-item">
+                            <div class="feature-image">
+                                <img src="./img/portfolio/image9.jpg" alt="working-process" width="370" height="294">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-type" lang="en">Growing Business</h3>
+                                <p class="feature-description">Приложение</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
-        </div>
     </main>
 
         <!-- Footer -->
         <footer class="footer">
             <div class="container">
-                <a href="./index.html" class="logo-footer"><span class="logo-prefix">Web</span><span
-                        class="logo-suffix">Studio</span></a>
+                <a href="./index.html" class="logo-footer">
+                    <span class="logo-prefix">Web</span>
+                    <span class="logo-suffix">Studio</span>
+                </a>
                 <address>
                     <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
                     <a href="mailto:info@example.com" class="contacts-link-mail-footer">info@example.com</a>
